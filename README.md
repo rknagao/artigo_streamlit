@@ -13,10 +13,4 @@ Explicação dos arquivos
 - criar no notepad e salvar como .sh
 - a extensão .sh representa um script a ser rodado no terminal (e.g. bash ou PowerShell)
 - é necessário para as configurações de porta necessária para o streamlit
-- linha a linha:
-```
-mkdir ~/.streamlit/ #criar a pasta (comando 'mkdir') '.streamlit' na pasta raíz do computador (comando '~/')
-    
-echo "\
-
-```
+- explicação da necessidade: o streamlit, por padrão, cria a aplicação na porta 8501 (i.e. http://localhost:8501). Entretanto, o Heroku  
