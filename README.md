@@ -14,6 +14,9 @@ Explicação dos arquivos
 - a extensão .sh representa um script a ser rodado no terminal (e.g. bash ou PowerShell)
 - é necessário para as configurações de porta necessária para o streamlit
 - linha a linha:
-    '''mkdir ~/.streamlit/''':criar a pasta (comando 'mkdir') '.streamlit' na pasta raíz do computador (comando '~/')
+```
+mkdir ~/.streamlit/ #criar a pasta (comando 'mkdir') '.streamlit' na pasta raíz do computador (comando '~/')
     
-    echo "\
+echo "\
+
+```
