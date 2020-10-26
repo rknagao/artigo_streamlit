@@ -12,5 +12,4 @@ Explicação dos arquivos
 **2) setup.sh**
 * criar no notepad e salvar como .sh
 * a extensão .sh representa um script a ser rodado no terminal (e.g. bash ou PowerShell)
-* é necessário para as configurações de porta necessária para o streamlit
-* explicação da necessidade: o streamlit, por padrão, cria a aplicação na porta 8501 (i.e. http://localhost:8501). Entretanto, o Heroku designa portas de forma automática, o que pode resultar em uma incompatibilidade de portas. Utilizando o `<port = $PORT>`
+* problema de portas: o streamlit, por padrão, cria a aplicação na porta 8501 (i.e. http://localhost:8501). Entretanto, o Heroku designa portas de forma automática, o que pode resultar em uma incompatibilidade de portas. Utilizando o `port = $PORT`
