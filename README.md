@@ -1,5 +1,5 @@
 # artigo_streamlit
-Repositório do artigo do assíncrono da Tera sobre streamlit e modelos em produção.
+Repositório do artigo do assíncrono da Tera sobre [Streamlit](https://www.streamlit.io/) e modelos em produção.
 
 
 Explicação dos arquivos
